@@ -26,5 +26,10 @@
     <Compile Include="playing.py" />
     <Compile Include="textDisplay.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="animals.txt" />
+    <Content Include="school.txt" />
+    <Content Include="sports.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

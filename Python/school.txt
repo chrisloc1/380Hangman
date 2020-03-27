@@ -1,0 +1,25 @@
+pencil
+paper
+eraser
+ruler
+protractor
+pencil sharpener
+pens
+mechanical pencil
+calculator
+highlighter
+notecards
+backpack
+chalk
+chalkboard
+marker
+projector
+textbook
+notebook
+homework
+teacher
+student
+finals
+project
+test
+quiz

@@ -1,0 +1,25 @@
+baseball
+soccer
+basketball
+football
+tennis
+skiing
+skateboarding
+snowboarding
+ice skating
+hockey
+archery
+badminton
+bowling
+boxing
+curling
+fencing
+volleyball
+wrestling
+running
+swimming
+fishing
+surfing
+cricket
+rugby
+car racing
