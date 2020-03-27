@@ -135,7 +135,7 @@ class hangman:
         if self.win == True:     #Finish texts
             finishD = textBox(text = 'Congratulations you won!', ypixel = 200)
         else:
-            finishD = textBox(text = "You're terrible", ypixel = 200)
+            finishD = textBox(text = "You Lose", ypixel = 200)
 
         continueD = textBox(text = 'Press any button to continue')
 
