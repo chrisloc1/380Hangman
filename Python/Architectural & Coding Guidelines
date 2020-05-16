@@ -1,0 +1,70 @@
+Architectural, Coding Guidelines & Naming Conventions Document
+
+Architecture:
+   
+   -We are coding in Python, using pygame.
+
+   -current IDE is visual studio code, pending change.
+
+   -Strategizing will be the key for a functional architecture. Performance is highly important.
+
+   -What is the big picture?
+
+Coding Guidelines:
+
+    -We want to name conventions for local/global variables, constants and functions.
+        Example: We will include meaningful and understandable variable names.
+    -There will be proper indentation for the code.
+    -There will be standard headers for different modules.
+    -There should be error return values.
+        Example: If an error is encountered, return 0 or 1 in order to make debugging easier.
+
+
+**Indentation:**
+for (i = 0; i < 5; i++) {
+    if (!something (i))
+        continue;
+    do_more ();
+}
+
+-This style will save a generous amount of space
+
+**Spacing:**
+Good:
+var list = new List<int> ();
+method (a);
+array [5];
+
+Avoid:
+var list = new List <int> ();
+method ( a );
+array[ 5 ];
+
+-Avoiding unnecessary spacing between symbols
+
+**Brackets:**
+-Avoiding unnecessary brackets
+
+Good:
+if (a)
+    code ();
+
+Avoid:
+if (a) {
+    code ();
+}
+
+**Multiline Parameters:**
+Good:
+WriteLine (format, foo,
+           bar, baz);
+WriteLine (
+       format, moved, too, long);
+WriteLine (foo,
+           bar,
+           baz);
+
+Bad:
+WriteLine (foo
+           , bar
+           , baz);
